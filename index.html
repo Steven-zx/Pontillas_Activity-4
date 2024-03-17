@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="formss.css">
+</head>
+<body>
+    <div class="forms">
+        <div class="container">
+            <h1 class="regTitle">Welcome to Japjap Charity Service!</h1>
+            <p class="reg">Register and Create an Account now.</p>
+            <form action="register.php" method="post">
+                <input type="email" id="email" name="email" required placeholder="Email">
+                <br>
+                <input type="password" id="password" name="password" required placeholder="Password">
+                <br>
+                <button type="submit" class="regButton">Register</button>
+            </form>
+        </div>
+    
+        <br>
+    
+        <div class="containerr">
+            <h1 class="regTitle">Welcome Back!</h1>
+            <p class="reg">Please login to your account.</p>
+            <form action="login.php" method="post">
+                <input type="email" id="email" name="email" required placeholder="Email">
+                <br>
+                <input type="password" id="password" name="password" required placeholder="Password">
+                <br>
+                <button type="submit" class="regButton">Login</button>
+            </form>
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+   
+</body>
+</html>
